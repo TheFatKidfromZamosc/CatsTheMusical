@@ -12,10 +12,64 @@
                 HeightRequest="250"
                 Aspect="AspectFit"
                 />
+            <Label Text="Tekst dla kota" />
+            <Entry x:Name="CatText"/>
             <Button
-                x:Name="CounterBtn"
+     x:Name="CounterBtn1"
+     Text="Cat OMG i love cats" 
+     Clicked="OnCounterClicked1"
+     HorizontalOptions="Fill" 
+     />
+            <Image
+    x:Name="Cat2"
+    HeightRequest="250"
+    Aspect="AspectFit"
+    />
+            <Label Text="Kolor dla tekstu kota" />
+            <Entry x:Name="CatTextColor"/>
+            <Button
+     x:Name="CounterBtn2"
+     Text="Cat OMG i love cats" 
+     Clicked="OnCounterClicked2"
+     HorizontalOptions="Fill" 
+     />
+            <Image
+    x:Name="Cat3"
+    HeightRequest="250"
+    Aspect="AspectFit"
+    />
+            <Label Text="JASNOSC KOTA" />
+            <Entry x:Name="CatBrightnes"/>
+            <Button
+     x:Name="CounterBtn3"
+     Text="Cat OMG i love cats" 
+     Clicked="OnCounterClicked3"
+     HorizontalOptions="Fill" 
+     />
+            <Image
+    x:Name="Cat4"
+    HeightRequest="250"
+    Aspect="AspectFit"
+    />
+            <Label Text="NASYCENIE KOTA MUAHAHAHHA" />
+            <Entry x:Name="CatSaturation"/>
+            <Button
+     x:Name="CounterBtn4"
+     Text="Cat OMG i love cats" 
+     Clicked="OnCounterClicked4"
+     HorizontalOptions="Fill" 
+     />
+            <Image
+    x:Name="Cat5"
+    HeightRequest="250"
+    Aspect="AspectFit"
+    />
+            <Label Text="FILTR DLA KOTA ((blur, mono, negate or custom)" />
+            <Entry x:Name="CatFilter"/>
+            <Button
+                x:Name="CounterBtn5"
                 Text="Cat OMG i love cats" 
-                Clicked="OnCounterClicked"
+                Clicked="OnCounterClicked5"
                 HorizontalOptions="Fill" 
                 />
         </VerticalStackLayout>
